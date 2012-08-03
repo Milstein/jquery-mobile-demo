@@ -1,0 +1,100 @@
+<!-- 
+
+	Project : jQuery Mobile Demo 
+	Project URL: http://michaeldabydeen.com/demo/jquery/demo1/
+	Version : 0.1
+	Author: Michael Dabydeen
+	Author URL: http://www.michaeldabydeen.com/about
+	License: GNU GPL v2.0
+	License URL: http://www.gnu.org/licenses/gpl-2.0.html
+
+-->
+
+<!DOCTYPE HTML>
+<html>
+	<head> 
+		<title></title>
+		 <meta name="viewport" content="width=device-width, initial-scale=1">
+        	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+       	        <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+       	        <script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+       	       
+	</head>
+	<body>
+		<div data-role="page">
+
+			<div data-role="header">
+				<h1>Order Menu</h1>
+			</div><!-- /header -->
+
+			<div data-role="content">	
+				<ul>
+					<li><a href="#beverages" data-role="button">Beverages</a></li>
+					<li><a href="#breakfast" data-role="button">Breakfast</a></li>
+					<li><a href="#lunch" data-role="button">Lunch</a></li>
+					<li><a href="#snack" data-role="button">Snack</a></li>
+					<li><a href="#contact" data-role="button">Contact</a></li>
+				</ul>
+		
+			</div><!-- /content -->
+			<div data-role="footer">
+				<h5> Project by <a href="#michael">Michael Dabydeen</a> </h5>
+			</div>
+
+		</div><!-- /page 1 -->
+		
+	<!-- Beverages Section -->
+	<div data-role="page" id="beverages" data-theme="a">
+
+		<div data-role="header">
+			<h1>Two</h1>
+		</div><!-- /header -->
+
+		<div data-role="content" >
+			<ul data-role="listview">
+					<li><a href="#beverages">Coffee</a></li>
+					<li><a href="#breakfast">Hot Chocolate</a></li>
+					<li><a href="#lunch">Tea</a></li>
+					<li><a href="#snack">Other</a></li>
+			</ul>	
+			
+			<p><a href="#one" data-direction="reverse" data-role="button" data-theme="b">Main Menu</a></p>	
+		
+		</div><!-- /content -->
+	
+		<div data-role="footer">
+			<h5>licensed under GNU GPL v2.0</h5>
+		</div><!-- /footer -->
+	</div><!-- /page beverages  -->
+
+	<!-- Breakfast Section -->
+	<div data-role="page" id="breakfast" data-theme="a">
+
+		<div data-role="header">
+			<h1>Two</h1>
+		</div><!-- /header -->
+
+		<div data-role="content">
+			<ul>
+					<li><a href="#beverages" data-role="button">Coffee</a></li>
+					<li><a href="#breakfast" data-role="button">Hot Chocolate</a></li>
+					<li><a href="#lunch" data-role="button">Tea</a></li>
+					<li><a href="#snack" data-role="button">Other</a></li>
+			</ul>	
+			
+			<p><a href="#one" data-direction="reverse" data-role="button" data-theme="b">Main Menu</a></p>	
+		
+		</div><!-- /content -->
+	
+		<div data-role="footer">
+			<h5>licensed under GNU GPL v2.0</h5>
+		</div><!-- /footer -->
+	</div><!-- /page beverages  -->
+
+<div><!-- Michael -->
+</div>
+
+</body>
+</html>
+	</body>
+</html>
