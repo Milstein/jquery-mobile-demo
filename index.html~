@@ -46,7 +46,7 @@
 	<div data-role="page" id="breakfast">
 
 		<div data-role="header">
-			<h1>Select a Beverage</h1>
+			<h1>Two</h1>
 		</div><!-- /header -->
 
 		<div data-role="content">
