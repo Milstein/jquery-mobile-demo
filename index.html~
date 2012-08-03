@@ -64,8 +64,7 @@
 		</div><!-- /content -->
 	
 		<div data-role="footer">
-			<h5> Created by <a href="http://michaeldabydeen.com">Michael Dabydeen</a>
-			<a href="">Licensed under GNU GPL v2.0</a></h5>
+			<h5>licensed under GNU GPL v2.0</h5>
 		</div><!-- /footer -->
 	</div><!-- /page coffee  -->
 	
