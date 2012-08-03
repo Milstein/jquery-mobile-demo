@@ -21,29 +21,31 @@
        	       
 	</head>
 	<body>
-		<div data-role="page">
+		<div data-role="page" id="menu">
 
 			<div data-role="header">
-				<h1>Order Menu</h1>
-			</div><!-- /header -->
+				<h1>Coffee Order Menu</h1>
+			</div><!-- /header --> 
 
-			<div data-role="content">	
-				<ul data-role="list-view">
-					<li><a href="#breakfast">Breakfast</a></li>
-					<li><a href="#lunch">Lunch</a></li>
-					<li><a href="#snack">Snack</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
+		<div data-role="content">
+			<ul data-role="list-view">
+					<li><a href="#coffee" data-role="button">Coffee</a></li>
+					<li><a href="#checkout" data-role="button">Hot Chocolate</a></li>
+					<li><a href="#tea" data-role="button">Tea</a></li>
+					<li><a href="#snack" data-role="button">Other</a></li>
+			</ul>	
+			
+			<p><a href="#menu" data-direction="reverse" data-role="button" data-theme="b">Main Menu</a></p>	
 		
-			</div><!-- /content -->
-			<div data-role="footer">
-				<h5> Project by <a href="#michael">Michael Dabydeen</a> </h5>
-			</div>
+		</div><!-- /content -->
+	
+		<div data-role="footer">
+			<h5>licensed under GNU GPL v2.0</h5>
+		</div><!-- /footer -->
+	</div><!-- /page menu  -->
 
-		</div><!-- /page 1 -->
-
-	<!-- Breakfast Section -->
-	<div data-role="page" id="breakfast">
+	<!-- Coffee Section -->
+	<div data-role="page" id="coffee">
 
 		<div data-role="header">
 			<h1>Select a Beverage</h1>
@@ -57,17 +59,86 @@
 					<li><a href="#snack" data-role="button">Other</a></li>
 			</ul>	
 			
-			<p><a href="#one" data-direction="reverse" data-role="button" data-theme="b">Main Menu</a></p>	
+			<p><a href="#menu" data-direction="reverse" data-role="button" data-theme="b">Main Menu</a></p>	
+		
+		</div><!-- /content -->
+	
+		<div data-role="footer">
+			<h5> Created by <a href="http://michaeldabydeen.com">Michael Dabydeen</a>
+			<a href="">Licensed under GNU GPL v2.0</a></h5>
+		</div><!-- /footer -->
+	</div><!-- /page coffee  -->
+	
+	<!-- Tea Section -->
+	<div data-role="page" id="tea">
+
+		<div data-role="header">
+			<h1>Select a Beverage</h1>
+		</div><!-- /header -->
+
+		<div data-role="content">
+			<ul>
+					<li><a href="#beverages" data-role="button">Coffee</a></li>
+					<li><a href="#breakfast" data-role="button">Hot Chocolate</a></li>
+					<li><a href="#lunch" data-role="button">Tea</a></li>
+					<li><a href="#snack" data-role="button">Other</a></li>
+			</ul>	
+			
+			<p><a href="#menu" data-direction="reverse" data-role="button" data-theme="b">Main Menu</a></p>	
 		
 		</div><!-- /content -->
 	
 		<div data-role="footer">
 			<h5>licensed under GNU GPL v2.0</h5>
 		</div><!-- /footer -->
-	</div><!-- /page breakfast  -->
+	</div><!-- /page tea  -->
+
+	<!-- Snack Section -->
+	<div data-role="page" id="snack">
+
+		<div data-role="header">
+			<h1>Select a Beverage</h1>
+		</div><!-- /header -->
+
+		<div data-role="content">
+			<ul>
+					<li><a href="#beverages" data-role="button">Coffee</a></li>
+					<li><a href="#breakfast" data-role="button">Hot Chocolate</a></li>
+					<li><a href="#lunch" data-role="button">Tea</a></li>
+					<li><a href="#snack" data-role="button">Other</a></li>
+			</ul>	
+			
+			<p><a href="#menu" data-direction="reverse" data-role="button" data-theme="b">Main Menu</a></p>	
+		
+		</div><!-- /content -->
+	
+		<div data-role="footer">
+			<h5>licensed under GNU GPL v2.0</h5>
+		</div><!-- /footer -->
+	</div><!-- /page snack  -->
+	
+	<!-- Checkout Section -->
+	<div data-role="page" id="checkout">
+
+		<div data-role="header">
+			<h1>Select a Beverage</h1>
+		</div><!-- /header -->
+
+		<div data-role="content">
+			<!-- insert action here --> 
+			
+			<p><a href="#menu" data-direction="reverse" data-role="button" data-theme="b">Main Menu</a></p>	
+		
+		</div><!-- /content -->
+	
+		<div data-role="footer">
+			<h5>licensed under GNU GPL v2.0</h5>
+		</div><!-- /footer -->
+	</div><!-- /page coffee  -->
+
 
 	<!-- About Michael Section -->
-	<div data-role="page" id="breakfast" data-theme="a">
+	<div data-role="page" id="michael" data-theme="a">
 
 		<div data-role="header">
 			<h1>Michael Dabydeen</h1>
@@ -79,7 +150,7 @@
 			   <a href="http://www.jquerymobile.com">jQuery Mobile Library </a>. 
 			   For more details and demos, visit <a href="http://www.michaeldabydeen.com">www.michaeldabydeen.com</a>
 			</p>
-			<p><a href="#page" data-direction="reverse" data-role="button" data-theme="b">Main Menu</a></p>	
+			<p><a href="#menu" data-direction="reverse" data-role="button" data-theme="b">Main Menu</a></p>	
 		
 		</div><!-- /content -->
 	
