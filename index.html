@@ -1,166 +1,147 @@
+<!DOCTYPE HTML>
 <!-- 
 
 	Project : jQuery Mobile Demo 
-	Project URL: http://michaeldabydeen.com/demo/jquery/demo1/
+	Project URL: http://michaeldabydeen.com/ (URL Moved. Needed Updating)
 	Version : 0.1
 	Author: Michael Dabydeen
-	Author URL: http://www.michaeldabydeen.com/about
+	Author URL: http://www.michaeldabydeen.com/about (URL Moved. Needed Updating)
 	License: GNU GPL v2.0
 	License URL: http://www.gnu.org/licenses/gpl-2.0.html
+	
+ *  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ *  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ *  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ *  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+ *  LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ *  OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ *  WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 -->
 
-<!DOCTYPE HTML>
 <html>
 	<head> 
 		<title>Breakfast Menu</title>
 		 <meta name="viewport" content="width=device-width, initial-scale=1">
         	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
-       	        <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+       	        <script src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
        	        <script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
-       	       
 	</head>
 	<body>
 		<div data-role="page" id="menu">
-
 			<div data-role="header">
 				<h1>Coffee Order Menu</h1>
 			</div><!-- /header --> 
-
-		<div data-role="content">
-			<ul data-role="list-view">
+			<div data-role="content">
+				<ul data-role="list-view">
 					<li><a href="#coffee" data-role="button">Coffee</a></li>
 					<li><a href="#checkout" data-role="button">Hot Chocolate</a></li>
 					<li><a href="#tea" data-role="button">Tea</a></li>
 					<li><a href="#snack" data-role="button">Other</a></li>
-			</ul>	
-			
-			<p><a href="#menu" data-direction="reverse" data-role="button" data-theme="b">Main Menu</a></p>	
-		
-		</div><!-- /content -->
-	
-		<div data-role="footer">
-			<h5>licensed under GNU GPL v2.0</h5>
-		</div><!-- /footer -->
-	</div><!-- /page menu  -->
-
-	<!-- Coffee Section -->
-	<div data-role="page" id="coffee">
-
-		<div data-role="header">
-			<h1>Select a Beverage</h1>
-		</div><!-- /header -->
-
-		<div data-role="content">
-			<ul>
+				</ul>	
+				<p>
+					<a href="#menu" data-direction="reverse" data-role="button" data-theme="b">Main Menu</a>
+				</p>	
+			</div><!-- /content -->
+			<div data-role="footer">
+				<h5>licensed under GNU GPL v2.0</h5>
+			</div><!-- /footer -->
+		</div><!-- /page menu  -->
+		<!-- Coffee Section -->
+		<div data-role="page" id="coffee">
+			<div data-role="header">
+				<h1>Select a Beverage</h1>
+			</div><!-- /header -->
+			<div data-role="content">
+				<ul>
 					<li>Milk</li>
 					<li>
 					<li>Cream</li>
 					<li>Sugar</li>
-					
-			</ul>	
-			
-			<p><a href="#menu" data-direction="reverse" data-role="button" data-theme="b">Main Menu</a></p>	
-		
-		</div><!-- /content -->
-	
-		<div data-role="footer">
-			<h5> Created by <a href="http://michaeldabydeen.com">Michael Dabydeen</a>
-			<a href="">Licensed under GNU GPL v2.0</a></h5>
-		</div><!-- /footer -->
-	</div><!-- /page coffee  -->
-	
-	<!-- Tea Section -->
-	<div data-role="page" id="tea">
-
-		<div data-role="header">
-			<h1>Select a Beverage</h1>
-		</div><!-- /header -->
-
-		<div data-role="content">
-			<ul>
+				</ul>	
+				<p>
+					<a href="#menu" data-direction="reverse" data-role="button" data-theme="b">Main Menu</a>
+				</p>	
+			</div><!-- /content -->
+			<div data-role="footer">
+				<h5> Created by <a href="http://michaeldabydeen.com">Michael Dabydeen</a>
+					<a href="">Licensed under GNU GPL v2.0</a></h5>
+			</div><!-- /footer -->
+		</div><!-- /page coffee  -->
+		<!-- Tea Section -->
+		<div data-role="page" id="tea">
+			<div data-role="header">
+				<h1>Select a Beverage</h1>
+			</div><!-- /header -->
+			<div data-role="content">
+				<ul>
 					<li><a href="#beverages" data-role="button">Coffee</a></li>
 					<li><a href="#breakfast" data-role="button">Hot Chocolate</a></li>
 					<li><a href="#lunch" data-role="button">Tea</a></li>
 					<li><a href="#snack" data-role="button">Other</a></li>
-			</ul>	
-			
-			<p><a href="#menu" data-direction="reverse" data-role="button" data-theme="b">Main Menu</a></p>	
-		
-		</div><!-- /content -->
-	
-		<div data-role="footer">
-			<h5>licensed under GNU GPL v2.0</h5>
-		</div><!-- /footer -->
-	</div><!-- /page tea  -->
-
-	<!-- Snack Section -->
-	<div data-role="page" id="snack">
-
-		<div data-role="header">
-			<h1>Select a Beverage</h1>
-		</div><!-- /header -->
-
-		<div data-role="content">
-			<ul>
+				</ul>	
+				<p>
+					<a href="#menu" data-direction="reverse" data-role="button" data-theme="b">Main Menu</a>
+				</p>	
+			</div><!-- /content -->
+			<div data-role="footer">
+				<h5>licensed under GNU GPL v2.0</h5>
+			</div><!-- /footer -->
+		</div><!-- /page tea  -->
+		<!-- Snack Section -->
+		<div data-role="page" id="snack">
+			<div data-role="header">
+				<h1>Select a Beverage</h1>
+			</div><!-- /header -->
+			<div data-role="content">
+				<ul>
 					<li><a href="#beverages" data-role="button">Coffee</a></li>
 					<li><a href="#breakfast" data-role="button">Hot Chocolate</a></li>
 					<li><a href="#lunch" data-role="button">Tea</a></li>
 					<li><a href="#snack" data-role="button">Other</a></li>
-			</ul>	
-			
-			<p><a href="#menu" data-direction="reverse" data-role="button" data-theme="b">Main Menu</a></p>	
-		
-		</div><!-- /content -->
-	
-		<div data-role="footer">
-			<h5>licensed under GNU GPL v2.0</h5>
-		</div><!-- /footer -->
-	</div><!-- /page snack  -->
-	
-	<!-- Checkout Section -->
-	<div data-role="page" id="checkout">
-
-		<div data-role="header">
-			<h1>Select a Beverage</h1>
-		</div><!-- /header -->
-
-		<div data-role="content">
-			<!-- insert action here --> 
-			
-			<p><a href="#menu" data-direction="reverse" data-role="button" data-theme="b">Main Menu</a></p>	
-		
-		</div><!-- /content -->
-	
-		<div data-role="footer">
-			<h5>licensed under GNU GPL v2.0</h5>
-		</div><!-- /footer -->
-	</div><!-- /page coffee  -->
-
-
-	<!-- About Michael Section -->
-	<div data-role="page" id="michael" data-theme="a">
-
-		<div data-role="header">
-			<h1>Michael Dabydeen</h1>
-		</div><!-- /header -->
-
-		<div data-role="content">
-			<p>
-			   This app has been created by Michael Dabydeen as a test of the 
-			   <a href="http://www.jquerymobile.com">jQuery Mobile Library </a>. 
-			   For more details and demos, visit <a href="http://www.michaeldabydeen.com">www.michaeldabydeen.com</a>
-			</p>
-			<p><a href="#menu" data-direction="reverse" data-role="button" data-theme="b">Main Menu</a></p>	
-		
-		</div><!-- /content -->
-	
-		<div data-role="footer">
-			<h5>licensed under GNU GPL v2.0</h5>
-		</div><!-- /footer -->
-	</div><!-- /page michael -->
-
-</body>
-</html>
+				</ul>	
+				<p>
+					<a href="#menu" data-direction="reverse" data-role="button" data-theme="b">Main Menu</a>
+				</p>	
+			</div><!-- /content -->
+			<div data-role="footer">
+				<h5>licensed under GNU GPL v2.0</h5>
+			</div><!-- /footer -->
+		</div><!-- /page snack  -->
+		<!-- Checkout Section -->
+		<div data-role="page" id="checkout">
+			<div data-role="header">
+				<h1>Select a Beverage</h1>
+			</div><!-- /header -->
+			<div data-role="content">
+				<!-- insert action here --> 
+				<p>
+					<a href="#menu" data-direction="reverse" data-role="button" data-theme="b">Main Menu</a>
+				</p>	
+			</div><!-- /content -->
+			<div data-role="footer">
+				<h5>licensed under GNU GPL v2.0</h5>
+			</div><!-- /footer -->
+		</div><!-- /page coffee  -->
+		<!-- About Michael Section -->
+		<div data-role="page" id="michael" data-theme="a">
+			<div data-role="header">
+				<h1>Michael Dabydeen</h1>
+			</div><!-- /header -->
+			<div data-role="content">
+				<p>This app has been created by Michael Dabydeen as a test of the 
+					<a href="http://www.jquerymobile.com">jQuery Mobile Library </a>. 
+					For more details and demos, visit <a href="http://www.michaeldabydeen.com">
+					www.michaeldabydeen.com</a>
+				</p>
+				<p>
+					<a href="#menu" data-direction="reverse" data-role="button" data-theme="b">Main Menu</a>
+				</p>	
+			</div><!-- /content -->
+			<div data-role="footer">
+				<h5>licensed under GNU GPL v2.0</h5>
+			</div><!-- /footer -->
+		</div><!-- /page michael -->
 	</body>
 </html>
+
